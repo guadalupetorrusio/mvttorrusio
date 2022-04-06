@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-80">
+    <title>Our Funky HTML Page</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+</head>
+<body>
+    <ul>
+        {% for person in persons%}
+            <li>Person Name: {{person.name}}</li>
+            <li>Person Height: {{person.height}}</li>
+            <li>Person Birthday: {{person.date_birth}}</li>
+        
+        {% endfor %}
+    </ul>>
+</body>
+</html>
